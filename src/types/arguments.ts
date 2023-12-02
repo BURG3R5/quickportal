@@ -3,7 +3,7 @@ export default interface Arguments {
   as: string | undefined;
   to: string;
   open: boolean;
-  alias: string;
+  localAlias: string;
   log: boolean;
   _: string[];
   $0: string;
