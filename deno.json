@@ -1,6 +1,10 @@
 {
-  "tasks": {
-    "dev": "DEBUG='*' deno run --watch -A ./src/cli.ts --from 4000",
-    "start": "DEBUG='*' deno run -A ./src/cli.ts --from 4000"
-  }
+    "tasks": {
+        "dev": "DEBUG='*' deno run --watch=src/ -A ./src/cli.ts --config config.json"
+    },
+    "fmt": {
+        "include": [
+            "src/"
+        ]
+    }
 }

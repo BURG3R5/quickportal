@@ -1,5 +1,3 @@
-<!-- deno-fmt-ignore-file -->
-
 # quickportal
 
 quickportal exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
@@ -18,6 +16,14 @@ You can restart your local server all you want, quickportal is smart enough to d
 
 You can download the executable from the latest release published [here](https://github.com/BURG3R5/quickportal/releases).
 
-### nexus
+### server
 
-By default quickportal connects to the `localtunnel.me` server. You can, however, easily set up and run your own nexus server. Check out [BURG3R5/quicknexus](https://github.com/BURG3R5/quicknexus) for the server component.
+quickportal is backwards-compatible with the [localtunnel](https://github.com/localtunnel/localtunnel) project (which inspired this one). By default quickportal connects to the `localtunnel.me` server.
+
+You can, however, easily set up and run your own *nexus* server, with additional QoL features like port restriction and portal deletion. Check out [BURG3R5/quicknexus](https://github.com/BURG3R5/quicknexus) for the server component.
+
+### license
+
+Copyright (C) 2025 Aditya Rajput & other contributors
+
+This software is licensed under the **Affero GPL v3**. You should have received [a copy](https://github.com/BURG3R5/quickportal/blob/master/LICENSE) of the Affero GPL v3 along with this program. If not, you can visit the original [here](https://www.gnu.org/licenses/agpl-3.0.html#license-text).
