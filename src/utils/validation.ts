@@ -1,6 +1,7 @@
 export function isInteger(value: unknown): boolean {
     return (
-        typeof value === "number" && isFinite(value) && Math.floor(value) === value
+        typeof value === "number" && isFinite(value) &&
+        Math.floor(value) === value
     );
 }
 

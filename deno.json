@@ -3,6 +3,7 @@
         "dev": "DEBUG='*' deno run --watch=src/ -A ./src/cli.ts --config config.json"
     },
     "fmt": {
+        "indentWidth": 4,
         "include": [
             "src/"
         ]
